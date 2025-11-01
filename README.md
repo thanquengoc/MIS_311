@@ -1,8 +1,6 @@
 # MIS-311
 ## Introduction to Business Analytics
-### Part 1: Data Analysis and Insight
-
-**Dataset: 06 Student Performance**
+### Part 1: Data Analysis and Insight (Dataset: 06 Student Performance)
 
 I will use **Python** on ***Google Colab*** to process and analyze this dataset.  
 
@@ -28,7 +26,7 @@ The ***Student Performance*** dataset provides detailed information on students�
 The dataset is designed to explore how factors such as gender, race ethnicity, and parental education influence student performance. It serves as a representative sample for analyzing educational outcomes and evaluating factors affecting student success.  
 
 #### **2. Data Cleaning**  
-I will use **info()** function to check if there are any missing values. 
+I will use `info()` function to check if there are any missing values. 
 
 ---
 <img width="687" height="410" alt="image" src="https://github.com/user-attachments/assets/d5506365-92fd-4db0-86fc-b41071e2dc0e" />  
@@ -40,13 +38,13 @@ The remaining columns have no missing values.
 
 The ***parental_level_of_education*** column I will fill "**not updated**" in the missing blank by using **fillna()** funtion. I decide to fill "**not updated**"  to ensure the ***descriptive statistics*** reflect the true state of the data, rather than using estimated values ​​that might misrepresent the original dataset.   
 
-The ***average_score*** column is missing some spaces so I will calculate and fill in the blanks using the **fillna()** function.
+The ***average_score*** column is missing some spaces so I will calculate and fill in the blanks using the `fillna()` function.
 
 ---
 <img width="1070" height="178" alt="image" src="https://github.com/user-attachments/assets/270bc40c-7e0d-43ce-a6e4-e831764fd791" />
 
 ---
-After handling the missing values, ​​I will check again with the **info()** function
+After handling the missing values, ​​I will check again with the `info()` function
 
 ---
 <img width="633" height="409" alt="image" src="https://github.com/user-attachments/assets/69551766-0266-47f6-86f1-db365463e20d" />
@@ -54,7 +52,7 @@ After handling the missing values, ​​I will check again with the **info()** 
 ---
 --> There is no missing value, all columns have 202 rows  
 
-I will use **duplicated()** function to check if there are any duplicate rows.  
+I will use `duplicated()` function to check if there are any duplicate rows.  
 
 ---
 <img width="1275" height="355" alt="image" src="https://github.com/user-attachments/assets/d46f0738-dcb3-4c91-8ba3-70e3b977957d" />
@@ -62,7 +60,7 @@ I will use **duplicated()** function to check if there are any duplicate rows.
 ---
 This output shows there are duplicate rows in the dataset. For example, rows 10 and 12, 54 and 55, 63 and 64 have the same values, so some student records repeat and should be removed for accurate descriptive statistics.  
 
-I will use **drop_duplicates()** function to remove duplicate rows
+I will use `drop_duplicates()` function to remove duplicate rows
 
 ---
 <img width="1295" height="584" alt="image" src="https://github.com/user-attachments/assets/cc3b33f8-76c9-4fc3-a090-e3ba6bd1b8e7" />
@@ -72,7 +70,7 @@ After cleaning, the dataset now has **199** rows (3 duplicate columns removed) a
 
 #### **3. Descriptive Statistics**  
 
-I will get ***descriptive statistics*** by using **describe()** function, not including gender column and text columns, including them would not give useful descriptive statistics like mean, min, or max. Removing them helps focus on the numeric scores for clearer analysis.  
+I will get ***descriptive statistics*** by using `describe()` function, not including gender column and text columns, including them would not give useful descriptive statistics like mean, min, or max. Removing them helps focus on the numeric scores for clearer analysis.  
 
 ---
 <img width="1065" height="432" alt="image" src="https://github.com/user-attachments/assets/a49db71f-dcfc-432f-a4a4-10acf199f198" />
@@ -82,7 +80,7 @@ This table shows descriptive statistics for students' scores in math, reading, w
 
 ***Insight 1***
 
-I will compare students’ average scores across different parental education levels to see if parents’ education affects student performance.  I will use the **groupby()** and **mean()** functions to calculate the average score for each group.
+I will compare students’ average scores across different parental education levels to see if parents’ education affects student performance.  I will use the `groupby()` and `mean()` functions to calculate the average score for each group.
 
 ---
 <img width="922" height="429" alt="image" src="https://github.com/user-attachments/assets/a27353e5-da75-4dd9-a1d7-a2bfefb95978" />
@@ -95,7 +93,7 @@ The results showed that students whose parents had higher levels of education, s
 
 ***Insight 2***  
 
-I will compare the average scores of students by race ethnicity to see if there are any differences in performance between these groups. I will use the **groupby()** and **mean()** functions to calculate the average score for each group.  
+I will compare the average scores of students by race ethnicity to see if there are any differences in performance between these groups. I will use the `groupby()` and `mean()` functions to calculate the average score for each group.  
 
 ---
 
@@ -108,7 +106,7 @@ The table shows that average scores vary across different race ethnicity groups.
 
 ***Insight 3***  
 
-I will compare the scores of 3 subjects across 2 different genders to see if gender affects academic performance in the subjects. I will use the **groupby()** and **mean()** functions to calculate the average score for each group.
+I will compare the scores of 3 subjects across 2 different genders to see if gender affects academic performance in the subjects. I will use the `groupby()` and `mean()` functions to calculate the average score for each group.
 
 ---
 <img width="909" height="261" alt="image" src="https://github.com/user-attachments/assets/f32597e7-1b5e-420d-a142-2f64698da144" />
