@@ -75,9 +75,57 @@ I will get ***descriptive statistics*** by using **describe()** function, not in
 <img width="1065" height="432" alt="image" src="https://github.com/user-attachments/assets/a49db71f-dcfc-432f-a4a4-10acf199f198" />
 
 ---
-This table shows descriptive statistics for students' scores in math, reading, writing, total score, and average score. On average, students scored between 64 and 67 points in each subject. Students score around 64.18 in math, 67.47 in reading, and 66.18 in writing, showing slightly stronger performance in reading.. The minimum score is quite low, while the maximum score is 100, indicating a wide range of scores. The standard deviation (about 15-16) shows some variation in performance among students. Overall, the data shows average performance with some individual variation in achievement levels.  
+This table shows descriptive statistics for students' scores in math, reading, writing, total score, and average score. On average, students scored between 64 and 67 points in each subject. Students score around 64.18 in math, 67.47 in reading, and 66.18 in writing, showing slightly stronger performance in reading. The minimum score is quite low, while the maximum score is 100, indicating a wide range of scores. The standard deviation (about 15-16) shows some variation in performance among students. Overall, the data shows average performance with some individual variation in achievement levels.  
 
 ***Insight 1***
+
+I will compare students’ average scores across different parental education levels to see if parents’ education affects student performance.  I will use the **groupby()** and **mean()** functions to calculate the average score for each group.
+
+---
+<img width="922" height="429" alt="image" src="https://github.com/user-attachments/assets/a27353e5-da75-4dd9-a1d7-a2bfefb95978" />
+<img width="1016" height="615" alt="image" src="https://github.com/user-attachments/assets/dec7bc3c-eadc-48c0-afe0-28b7f18857c4" />
+
+
+---
+
+The results showed that students whose parents had higher levels of education, such as bachelor’s or master’s degrees, tended to have higher average scores than other students. This suggests that parental education has a significant impact on children’s academic achievement. Understanding this can help schools and families provide appropriate support to help students from different backgrounds perform better in their studies.
+
+***Insight 2***  
+
+I will compare the average scores of students by race ethnicity to see if there are any differences in performance between these groups. I will use the **groupby()** and **mean()** functions to calculate the average score for each group.  
+
+---
+
+<img width="849" height="385" alt="image" src="https://github.com/user-attachments/assets/c0facc63-7e32-4b56-929a-6034c07fac51" />
+<img width="731" height="400" alt="image" src="https://github.com/user-attachments/assets/8c1c2bef-b1ea-4abc-86eb-0f1e66bdcfe5" />
+
+---
+
+The table shows that average scores vary across different race ethnicity groups. Group A has the lowest average score at 58.11, while Group E has the highest at 70.27. There is a clear upward trend from Group A to Group E, indicating that race ethnicity may be associated with differences in academic performance.
+
+***Insight 3***  
+
+I will compare the scores of 3 subjects across 2 different genders to see if gender affects academic performance in the subjects. I will use the **groupby()** and **mean()** functions to calculate the average score for each group.
+
+---
+<img width="909" height="261" alt="image" src="https://github.com/user-attachments/assets/f32597e7-1b5e-420d-a142-2f64698da144" />
+<img width="717" height="550" alt="image" src="https://github.com/user-attachments/assets/b4836a1d-f0bc-4532-aae9-6b9f8b142c23" />
+
+
+---
+The data show that there is a difference in average scores between the two genders. The group with gender  0 (probably female) scored significantly higher in writing and reading, while the group with gender  1 (probably male) scored slightly higher in math. This suggests that female students tend to be stronger in language subjects, while male students are stronger in math. Overall, this difference reflects the gender differences in subject-specific learning.  
+
+
+### **Conclusion**  
+
+In summary, the results of the analysis show that many personal and social factors influence students' academic achievement. Parental level of education, gender, and race ethnicity groups are all associated with different mean scores across groups. Specifically, students with more educated parents tend to score higher, girls are stronger in language while boys are stronger in mathematics, and mean scores tend to increase across race ethnicity groups from A to E. These insights highlight the importance of providing appropriate academic support policies to reduce the learning gap between different groups of students.
+
+
+
+
+
+
+
 
 
 
