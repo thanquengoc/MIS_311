@@ -1,6 +1,9 @@
 # MIS-311
 ## Introduction to Business Analytics
 ### Part 1: Data Analysis and Insight
+
+**Dataset: 06 Student Performance**
+
 I will use **Python** on ***Google Colab*** to process and analyze this dataset.  
 
 #### **1. Data Overview**  
