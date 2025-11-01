@@ -49,7 +49,36 @@ After handling the missing values, ​​I will check again with the **info()** 
 <img width="633" height="409" alt="image" src="https://github.com/user-attachments/assets/69551766-0266-47f6-86f1-db365463e20d" />
 
 ---
---> There is no missing value, all columns have 202 rows
+--> There is no missing value, all columns have 202 rows  
+
+I will use **duplicated()** function to check if there are any duplicate rows.  
+
+---
+<img width="1275" height="355" alt="image" src="https://github.com/user-attachments/assets/d46f0738-dcb3-4c91-8ba3-70e3b977957d" />
+
+---
+This output shows there are duplicate rows in the dataset. For example, rows 10 and 12, 54 and 55, 63 and 64 have the same values, so some student records repeat and should be removed for accurate descriptive statistics.  
+
+I will use **drop_duplicates()** function to remove duplicate rows
+
+---
+<img width="1295" height="584" alt="image" src="https://github.com/user-attachments/assets/cc3b33f8-76c9-4fc3-a090-e3ba6bd1b8e7" />
+
+---
+After cleaning, the dataset now has **199** rows (3 duplicate columns removed) and 8 columns. This makes the data more precise and ready for further descriptive statistics or analysis.
+
+#### **3. Descriptive Statistics**  
+
+I will get ***descriptive statistics*** by using **describe()** function, not including gender column and text columns, including them would not give useful descriptive statistics like mean, min, or max. Removing them helps focus on the numeric scores for clearer analysis.  
+
+---
+<img width="1065" height="432" alt="image" src="https://github.com/user-attachments/assets/a49db71f-dcfc-432f-a4a4-10acf199f198" />
+
+---
+This table shows descriptive statistics for students' scores in math, reading, writing, total score, and average score. On average, students scored between 64 and 67 points in each subject. Students score around 64.18 in math, 67.47 in reading, and 66.18 in writing, showing slightly stronger performance in reading.. The minimum score is quite low, while the maximum score is 100, indicating a wide range of scores. The standard deviation (about 15-16) shows some variation in performance among students. Overall, the data shows average performance with some individual variation in achievement levels.  
+
+***Insight 1***
+
 
 
 
