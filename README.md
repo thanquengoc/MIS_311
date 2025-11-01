@@ -1,10 +1,9 @@
-# MIS-311
-## Introduction to Business Analytics
-### Part 1: Data Analysis and Insight (Dataset: 06 Student Performance)
+# MIS-311 - Introduction to Business Analytics
+## Part 1: Data Analysis and Insight (Dataset: 06 Student Performance)
 
 I will use **Python** on ***Google Colab*** to process and analyze this dataset.  
 
-#### **1. Data Overview**  
+### **1. Data Overview**  
 
 ---
 <img width="452" height="477" alt="image" src="https://github.com/user-attachments/assets/57cb9290-719f-479f-8584-c5b77409eeaa" />   
@@ -25,7 +24,7 @@ The ***Student Performance*** dataset provides detailed information on studentsâ
 
 The dataset is designed to explore how factors such as gender, race ethnicity, and parental education influence student performance. It serves as a representative sample for analyzing educational outcomes and evaluating factors affecting student success.  
 
-#### **2. Data Cleaning**  
+### **2. Data Cleaning**  
 I will use `info()` function to check if there are any missing values. 
 
 ---
@@ -68,7 +67,7 @@ I will use `drop_duplicates()` function to remove duplicate rows
 ---
 After cleaning, the dataset now has **199** rows (3 duplicate columns removed) and 8 columns. This makes the data more precise and ready for further descriptive statistics or analysis.
 
-#### **3. Descriptive Statistics**  
+### **3. Descriptive Statistics**  
 
 I will get ***descriptive statistics*** by using `describe()` function, not including gender column and text columns, including them would not give useful descriptive statistics like mean, min, or max. Removing them helps focus on the numeric scores for clearer analysis.  
 
@@ -117,7 +116,7 @@ I will compare the scores of 3 subjects across 2 different genders to see if gen
 The data show that there is a difference in average scores between the two genders. The group with gender  0 (probably female) scored significantly higher in writing and reading, while the group with gender  1 (probably male) scored slightly higher in math. This suggests that female students tend to be stronger in language subjects, while male students are stronger in math. Overall, this difference reflects the gender differences in subject-specific learning.  
 
 
-### **Conclusion**  
+## **Conclusion**  
 
 In summary, the results of the analysis show that many personal and social factors influence students' academic achievement. Parental level of education, gender, and race ethnicity groups are all associated with different mean scores across groups. Specifically, students with more educated parents tend to score higher, girls are stronger in language while boys are stronger in mathematics, and mean scores tend to increase across race ethnicity groups from A to E. These insights highlight the importance of providing appropriate academic support policies to reduce the learning gap between different groups of students.
 
