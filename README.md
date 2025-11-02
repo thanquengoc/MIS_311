@@ -96,7 +96,7 @@ I will compare the average scores of students by race ethnicity to see if there 
 
 ---
 
-<img width="849" height="385" alt="image" src="https://github.com/user-attachments/assets/c0facc63-7e32-4b56-929a-6034c07fac51" />
+<img width="746" height="331" alt="image" src="https://github.com/user-attachments/assets/648ff0c3-28bf-4280-a731-3fef71270ebc" />
 <img width="731" height="400" alt="image" src="https://github.com/user-attachments/assets/8c1c2bef-b1ea-4abc-86eb-0f1e66bdcfe5" />
 
 ---
@@ -108,7 +108,8 @@ The table shows that average scores vary across different race ethnicity groups.
 I will compare the scores of 3 subjects across 2 different genders to see if gender affects academic performance in the subjects. I will use the `groupby()` and `mean()` functions to calculate the average score for each group.
 
 ---
-<img width="909" height="261" alt="image" src="https://github.com/user-attachments/assets/f32597e7-1b5e-420d-a142-2f64698da144" />
+
+<img width="810" height="230" alt="image" src="https://github.com/user-attachments/assets/582abc1c-7cd3-416e-980c-8b38f1d6464d" />
 <img width="717" height="550" alt="image" src="https://github.com/user-attachments/assets/b4836a1d-f0bc-4532-aae9-6b9f8b142c23" />
 
 
