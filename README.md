@@ -96,7 +96,7 @@ I will compare the average scores of students by race ethnicity to see if there 
 
 ---
 
-<img width="746" height="331" alt="image" src="https://github.com/user-attachments/assets/648ff0c3-28bf-4280-a731-3fef71270ebc" />
+<img width="947" height="419" alt="image" src="https://github.com/user-attachments/assets/967f11d5-68f6-4673-82e1-6dacc104cc46" />
 <img width="731" height="400" alt="image" src="https://github.com/user-attachments/assets/8c1c2bef-b1ea-4abc-86eb-0f1e66bdcfe5" />
 
 ---
