@@ -88,7 +88,9 @@ I will compare students’ average scores across different parental education le
 
 ---
 
-The results showed that students whose parents had higher levels of education, such as bachelor’s or master’s degrees, tended to have higher average scores than other students. This suggests that parental education has a significant impact on children’s academic achievement. Understanding this can help schools and families provide appropriate support to help students from different backgrounds perform better in their studies.
+The results showed that students whose parents had higher levels of education, such as bachelor’s or master’s degrees, tended to have higher average scores than other students. Students whose parents have the lowest education level (some high school) also achieved the lowest average performance among all groups. This suggests that parental education has a significant impact on children’s academic achievement. Understanding this can help schools and families provide appropriate support to help students from different backgrounds perform better in their studies.  
+
+> ⚠️ **Note:** *“not updated” represents missing value and was not included in the analysis.*
 
 ***Insight 2***  
 
@@ -101,7 +103,7 @@ I will compare the average scores of students by race ethnicity to see if there 
 
 ---
 
-The table shows that average scores vary across different race ethnicity groups. Group A has the lowest average score at 58.11, while Group E has the highest at 70.27. There is a clear upward trend from Group A to Group E, indicating that race ethnicity may be associated with differences in academic performance.
+The table shows that average scores vary across different race ethnicity groups. Group A has the lowest average score at 59.33, while Group E has the highest at 70.27. There is a clear upward trend from Group A to Group E, indicating that race ethnicity may be associated with differences in academic performance.
 
 ***Insight 3***  
 
