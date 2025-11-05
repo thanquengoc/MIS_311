@@ -62,29 +62,29 @@ This output shows there are duplicate rows in the dataset. For example, rows 10 
 I will use `drop_duplicates()` function to remove duplicate rows
 
 ---
-<img width="1295" height="584" alt="image" src="https://github.com/user-attachments/assets/cc3b33f8-76c9-4fc3-a090-e3ba6bd1b8e7" />
+<img width="1334" height="612" alt="image" src="https://github.com/user-attachments/assets/3d62e49f-cdd0-4725-9022-2472af3723e4" />
 
 ---
-After cleaning, the dataset now has **199** rows (3 duplicate columns removed) and 8 columns. This makes the data more precise and ready for further descriptive statistics or analysis.
+
+After cleaning, the dataset now has **199** rows (3 duplicate rows removed) and 8 columns. This makes the data more precise and ready for further descriptive statistics or analysis.
 
 ### **3. Descriptive Statistics**  
 
 I will get ***descriptive statistics*** by using `describe()` function, not including gender column and text columns, including them would not give useful descriptive statistics like mean, min, or max. Removing them helps focus on the numeric scores for clearer analysis.  
 
 ---
-<img width="1065" height="432" alt="image" src="https://github.com/user-attachments/assets/a49db71f-dcfc-432f-a4a4-10acf199f198" />
+<img width="1074" height="438" alt="image" src="https://github.com/user-attachments/assets/d34298c5-b2ec-41b8-a958-eb8d4c0b2efe" />
 
 ---
-This table shows descriptive statistics for students' scores in math, reading, writing, total score, and average score. On average, students scored between 64 and 67 points in each subject. Students score around 64.18 in math, 67.47 in reading, and 66.18 in writing, showing slightly stronger performance in reading. The minimum score is quite low, while the maximum score is 100, indicating a wide range of scores. The standard deviation (about 15-16) shows some variation in performance among students. Overall, the data shows average performance with some individual variation in achievement levels.  
+This table shows descriptive statistics for students' scores in math, reading, writing, total score, and average score. On average, students scored between 64 and 67 points in each subject. Students score around 64.22 in math, 67.63 in reading, and 66.37 in writing, showing slightly stronger performance in reading. The minimum score is quite low, while the maximum score is 100, indicating a wide range of scores. The standard deviation (about 15-16) shows some variation in performance among students. Overall, the data shows average performance with some individual variation in achievement levels. 
 
 ***Insight 1***
 
 I will compare students’ average scores across different parental education levels to see if parents’ education affects student performance.  I will use the `groupby()` and `mean()` functions to calculate the average score for each group.
 
 ---
-<img width="922" height="429" alt="image" src="https://github.com/user-attachments/assets/a27353e5-da75-4dd9-a1d7-a2bfefb95978" />
-<img width="1016" height="615" alt="image" src="https://github.com/user-attachments/assets/dec7bc3c-eadc-48c0-afe0-28b7f18857c4" />
-
+<img width="1071" height="475" alt="image" src="https://github.com/user-attachments/assets/99e34f43-b62e-4e2d-889f-c5446a205ec0" />
+<img width="983" height="600" alt="image" src="https://github.com/user-attachments/assets/8329dea3-38bd-4af5-ab9c-454aabc5c9ce" />
 
 ---
 
@@ -96,8 +96,8 @@ I will compare the average scores of students by race ethnicity to see if there 
 
 ---
 
-<img width="947" height="419" alt="image" src="https://github.com/user-attachments/assets/967f11d5-68f6-4673-82e1-6dacc104cc46" />
-<img width="731" height="400" alt="image" src="https://github.com/user-attachments/assets/8c1c2bef-b1ea-4abc-86eb-0f1e66bdcfe5" />
+<img width="919" height="414" alt="image" src="https://github.com/user-attachments/assets/3532c5a9-9e04-4fbd-bba5-a799361bae1f" />
+<img width="910" height="496" alt="image" src="https://github.com/user-attachments/assets/322af546-6f78-4fd7-a0b8-67dd4894e3b9" />
 
 ---
 
@@ -109,8 +109,8 @@ I will compare the scores of 3 subjects across 2 different genders to see if gen
 
 ---
 
-<img width="810" height="230" alt="image" src="https://github.com/user-attachments/assets/582abc1c-7cd3-416e-980c-8b38f1d6464d" />
-<img width="717" height="550" alt="image" src="https://github.com/user-attachments/assets/b4836a1d-f0bc-4532-aae9-6b9f8b142c23" />
+<img width="1024" height="284" alt="image" src="https://github.com/user-attachments/assets/a063a995-b67f-49b5-98c5-151dd2434941" />
+<img width="780" height="608" alt="image" src="https://github.com/user-attachments/assets/0c57b381-cd2d-4253-b026-aa70111331ea" />
 
 
 ---
