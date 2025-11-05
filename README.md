@@ -35,7 +35,7 @@ The ***parental_level_of_education*** column has **3** missing values.
 The ***average_score*** column has **4** missing values.  
 The remaining columns have no missing values.  
 
-The ***parental_level_of_education*** column I will fill "**not updated**" in the missing blank by using **fillna()** funtion. I decide to fill "**not updated**"  to ensure the ***descriptive statistics*** reflect the true state of the data, rather than using estimated values ​​that might misrepresent the original dataset.   
+The ***parental_level_of_education*** column I will fill "**not updated**" in the missing blank by using `fillna()` funtion. I decide to fill "**not updated**"  to ensure the ***descriptive statistics*** reflect the true state of the data, rather than using estimated values ​​that might misrepresent the original dataset.   
 
 The ***average_score*** column is missing some spaces so I will calculate and fill in the blanks using the `fillna()` function.
 
