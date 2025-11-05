@@ -77,7 +77,7 @@ I will get ***descriptive statistics*** by using `describe()` function, not incl
 ---
 This table shows descriptive statistics for students' scores in math, reading, writing, total score, and average score. On average, students scored between 64 and 67 points in each subject. Students score around 64.18 in math, 67.47 in reading, and 66.18 in writing, showing slightly stronger performance in reading. The minimum score is quite low, while the maximum score is 100, indicating a wide range of scores. The standard deviation (about 15-16) shows some variation in performance among students. Overall, the data shows average performance with some individual variation in achievement levels.  
 
-***Insight 1***
+📉***Insight 1***
 
 I will compare students’ average scores across different parental education levels to see if parents’ education affects student performance.  I will use the `groupby()` and `mean()` functions to calculate the average score for each group.
 
@@ -90,7 +90,7 @@ I will compare students’ average scores across different parental education le
 
 The results showed that students whose parents had higher levels of education, such as bachelor’s or master’s degrees, tended to have higher average scores than other students. This suggests that parental education has a significant impact on children’s academic achievement. Understanding this can help schools and families provide appropriate support to help students from different backgrounds perform better in their studies.
 
-***Insight 2***  
+📉***Insight 2***  
 
 I will compare the average scores of students by race ethnicity to see if there are any differences in performance between these groups. I will use the `groupby()` and `mean()` functions to calculate the average score for each group.  
 
@@ -103,7 +103,7 @@ I will compare the average scores of students by race ethnicity to see if there 
 
 The table shows that average scores vary across different race ethnicity groups. Group A has the lowest average score at 58.11, while Group E has the highest at 70.27. There is a clear upward trend from Group A to Group E, indicating that race ethnicity may be associated with differences in academic performance.
 
-***Insight 3***  
+📊***Insight 3***  
 
 I will compare the scores of 3 subjects across 2 different genders to see if gender affects academic performance in the subjects. I will use the `groupby()` and `mean()` functions to calculate the average score for each group.
 
